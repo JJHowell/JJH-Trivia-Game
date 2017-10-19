@@ -38,7 +38,7 @@ input {
 
 
 #button {
-	background: white;
+	background: #ff5459;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -51,7 +51,7 @@ input {
 
 
 #button:hover {
-	background: white;
+	background: lightblue;
 	border: 1px white;
 	color: black;
 	cursor: pointer;

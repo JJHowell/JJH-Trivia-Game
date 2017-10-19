@@ -35,8 +35,8 @@ function check(){
 		correct++;
 	}
 	
-	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-	var messages = ["PERFECTO!", "That's just okay", "You really need to do better"];
+	var pictures = ["img/win.gif", "img/kinda.jpeg", "img/lose.gif"];
+	var messages = ["PERFECTO!", "Mas O Menos.", "Que malo."];
 	var score;
 
 	if (correct == 0) {

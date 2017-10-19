@@ -14,8 +14,21 @@
 	setTimeout(function(){
   alert("YOU RAN OUT OF TIME! TRY AGAIN!");
 	}, 1000*21);
-
     });
+
+    //I'm still working on getting the timer to give a message by utilizing timerMsg
+    
+    //I was thinking something like this might work. (See below)
+
+    //var el = document.getElementById(element);
+        // if the time is 0 then end the counter
+        //if(time == 0) {
+            //el.innerHTML = "Move on to next date...";
+            //clearInterval(interval);
+            //setTimeout(function() {
+                //countdown('clock', 3, 0);
+            //}, 2000);
+        //}
 
 function check(){
 
@@ -35,7 +48,7 @@ function check(){
 		correct++;
 	}
 	
-	var pictures = ["img/win.gif", "img/kinda.jpeg", "img/lose.gif"];
+	var pictures = ["img/win.gif", "img/kinda.gif", "img/lose.gif"];
 	var messages = ["PERFECTO!", "Mas O Menos.", "Que malo."];
 	var score;
 

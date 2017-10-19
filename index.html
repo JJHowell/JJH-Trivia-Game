@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Spanish Artists Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Spanish Artists Quiz</h1>
+
+<div id="timer">TIME REMAINING: 00:20</div>
+<br>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Which is a Salvador Dali painting?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Leda Atomica"> Leda Atomica<br>
+<input type = "radio" id = "mc" name = "question1" value = "The Mona Lisa"> The Mona Lisa<br>
+
+<p class = "questions">Where in Spain was Pablo Picasso born?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Madrid"> Madrid<br>
+<input type = "radio" id = "mc" name = "question2" value = "Malaga"> Málaga<br>
+
+<p class = "questions">Which is not a Spanish painter?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Ricard Canals"> Ricard Canals<br>
+<input type = "radio" id = "mc" name = "question3" value = "Magritte"> Magritte<br>
+
+
+<input id = "button" type = "button" value = "Complete Your Quiz" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
